@@ -1,0 +1,27 @@
+Package: DensPlotR
+Type: Package
+Title: Statistical Analysis and Visualization of Density and Summary Statistics
+Version: 0.1.0
+Date: 2024-05-05
+Author: Michał Daniluk <mdaniluk123@gmail.com>
+Maintainer: Michał Daniluk <mdaniluk123@gmail.com>
+Description: DensPlotR provides tools for statistical analysis and visualization,
+    focusing on density estimation and data summarization. It includes functions
+    for calculating and plotting kernel density estimates, summarizing datasets 
+    with key statistics, and features an easy-to-use interface for generating 
+    insightful graphical data representations. This package is ideal for researchers 
+    and data analysts looking to explore data distributions and central tendencies 
+    within their data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats,
+    dplyr,
+    data.table (>= 1.9.4)
+Suggests:
+    knitr,
+    rmarkdown
+Depends:
+    R (>= 3.5.0)
+RoxygenNote: 7.3.1
